@@ -7,3 +7,4 @@ const seconds = timeNodes
         return (mins * 60) + secs;
         console.log(mins, secs);
     })
+    .reduce((total, vidSeconds) => total + vidSeconds);
